@@ -1,0 +1,139 @@
+/*
+//--------------------------------------------------------------------------------------
+//-                                 Global                                         -
+//--------------------------------------------------------------------------------------
+*/
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*
+//--------------------------------------------------------------------------------------
+//-                                 Presentacion                                         -
+//--------------------------------------------------------------------------------------
+*/
+
+.fondo-pag{
+    background: #f2f2f2f2;
+}
+
+.pre-fondo{
+    height: 20rem;
+    width: 100%;
+    background: url(./test-img/fondo.jpg);
+    background-size: cover;
+    filter: blur(1.40px);
+    -webkit-filter: blur(1.40px);
+}
+
+
+.presentacion{
+    width: 100%;
+    position: absolute;
+    /* background: rgba(235, 228, 228, 0.65); */
+    background: rgb(235,228,228);
+    background: linear-gradient(90deg, rgba(235,228,228,0.55) 0%, rgba(205,205,205,0.55) 50%, rgba(100,178,249,0.55) 100%);
+    padding: 10px 0 10px 0;
+    top: 7rem;
+    border: 4px solid;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 120%;  
+}
+h1{
+    text-align: center;
+}
+
+/*
+//--------------------------------------------------------------------------------------
+//-                                 h2 identado                                         -
+//--------------------------------------------------------------------------------------
+*/
+
+.identado{
+    text-align: center;
+    margin: 40px 50px 45px 100px;
+}
+
+/*
+//--------------------------------------------------------------------------------------
+//-                                 Tablas de contenido                                         -
+//--------------------------------------------------------------------------------------
+*/
+
+
+
+table {
+    position:relative;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(162,35,35,1) 59%, rgba(255,252,0,1) 100%);
+    color: #fff;
+    /* margin: 20px; */
+ }
+ td, th {
+    text-align: start;
+    width: 15%;
+    background: rgb(245, 244, 244);
+    color: #000;
+ }
+.separador{
+    background: #f2f2f2f2;
+    width: 100%;
+    margin: 55px 0 0 0;
+    display: flex;
+}
+
+/*
+//--------------------------------------------------------------------------------------
+//-                                 footer                                         -
+//--------------------------------------------------------------------------------------
+*/
+
+ footer{
+    
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cccccc;
+}
+.content-foot{
+    text-align: center;
+}
+.content-foot h4{
+    color: #f2f2f2;
+    border-bottom: 3px solid #0f9b0f;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foot p{
+    color: #cccccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #e2e2e2be;
+}
+
+
